@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "sandbox": {
+    "enabled": true,
+    "allowUnsandboxedCommands": false,
+    "excludedCommands": ["gh *", "git *"],
+    "filesystem": {
+      "allowWrite": [
+        "~/.npm",
+        "~/.local/state/fnm_multishells",
+        "~/.config/typedstandards-eval-run-example"
+      ]
+    },
+    "network": {
+      "allowedDomains": [
+        "epoch.ai",
+        "logs.epoch.ai",
+        "epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com",
+        "freetsa.org",
+        "rekor.sigstore.dev",
+        "registry.npmjs.org",
+        "github.com",
+        "api.github.com"
+      ]
+    }
+  }
+}
