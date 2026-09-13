@@ -1,0 +1,22 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 405 
+date: Sun, 13 Sep 2026 16:31:36 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+x-amzn-waf-action: captcha
+cache-control: no-store, max-age=0
+access-control-allow-origin: *
+access-control-max-age: 86400
+access-control-allow-methods: OPTIONS,GET,POST
+access-control-expose-headers: x-amzn-waf-action
+x-cache: Error from cloudfront
+via: 1.1 42821c7336e5cd754f4b8d141b41a412.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD61-P15
+x-amz-cf-id: hfou_jjG5h7TEh3cUO5PL29WRNibc0dZc-44v3zfzUbAtAXGS-nCnQ==
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rLODxO9uUNfHiBX5tmpMIMMdhtKuR6zUW5%2F7PGehwJBXWZ82TGzVnx%2FH%2BFmw2RX4keVyJyhFx9Exv7CcHhQN2%2FXEz1dEafN6TzsHHUYxAxA1B0Zgdlv%2FlyF3Gxei%2FLE%2BJOrNa4DHy4ewqaAz"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: a3a88b0c08498e82-IAD
+alt-svc: h3=":443"; ma=86400
+

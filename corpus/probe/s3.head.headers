@@ -1,0 +1,10 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: CA3RPK8C8CNVMFQG
+x-amz-id-2: 9b+jBjXxTu1cY7FkSvPRC9a9/IJbayLaq+ThOcvtLo/B3KU9M8C15olfN5wPpjQ4rcfKv6Zpa5aM+4Cqv6FWHhviVJf2wrGK
+Content-Type: application/xml
+Transfer-Encoding: chunked
+Date: Sun, 13 Sep 2026 16:31:35 GMT
+Server: AmazonS3
+

@@ -1,0 +1,99 @@
+{
+  "run_id": "S5QYXSvQBRSbUbXSnAGbMm",
+  "transport": "curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.1; default user agent",
+  "results": [
+    {
+      "route": "s3",
+      "method": "HEAD",
+      "url": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "requested_at": "2026-09-13T16:31:35Z",
+      "curl_exit": 0,
+      "curl_stderr": null,
+      "url_effective": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "http_status": 403,
+      "status_line": "HTTP/1.1 403 Forbidden",
+      "content_type": "application/xml",
+      "content_length": null,
+      "content_range": null,
+      "x_amzn_waf_action": null,
+      "server": "AmazonS3",
+      "body_bytes_received": 325,
+      "body_s3_error_code": null,
+      "body_html_title": null,
+      "files": [
+        "corpus/probe/s3.head.headers",
+        "corpus/probe/s3.head.body"
+      ]
+    },
+    {
+      "route": "s3",
+      "method": "GET Range: bytes=0-0",
+      "url": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "requested_at": "2026-09-13T16:31:35Z",
+      "curl_exit": 0,
+      "curl_stderr": null,
+      "url_effective": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "http_status": 403,
+      "status_line": "HTTP/1.1 403 Forbidden",
+      "content_type": "application/xml",
+      "content_length": null,
+      "content_range": null,
+      "x_amzn_waf_action": null,
+      "server": "AmazonS3",
+      "body_bytes_received": 263,
+      "body_s3_error_code": "AccessDenied",
+      "body_html_title": null,
+      "files": [
+        "corpus/probe/s3.range.headers",
+        "corpus/probe/s3.range.body"
+      ]
+    },
+    {
+      "route": "logs-epoch-ai",
+      "method": "HEAD",
+      "url": "https://logs.epoch.ai/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "requested_at": "2026-09-13T16:31:36Z",
+      "curl_exit": 0,
+      "curl_stderr": null,
+      "url_effective": "https://logs.epoch.ai/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "http_status": 405,
+      "status_line": "HTTP/2 405",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": null,
+      "content_range": null,
+      "x_amzn_waf_action": "captcha",
+      "server": "cloudflare",
+      "body_bytes_received": 1002,
+      "body_s3_error_code": null,
+      "body_html_title": null,
+      "files": [
+        "corpus/probe/logs-epoch-ai.head.headers",
+        "corpus/probe/logs-epoch-ai.head.body"
+      ]
+    },
+    {
+      "route": "logs-epoch-ai",
+      "method": "GET Range: bytes=0-0",
+      "url": "https://logs.epoch.ai/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "requested_at": "2026-09-13T16:31:36Z",
+      "curl_exit": 0,
+      "curl_stderr": null,
+      "url_effective": "https://logs.epoch.ai/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "http_status": 405,
+      "status_line": "HTTP/2 405",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": null,
+      "content_range": null,
+      "x_amzn_waf_action": "captcha",
+      "server": "cloudflare",
+      "body_bytes_received": 2111,
+      "body_s3_error_code": null,
+      "body_html_title": "Human Verification",
+      "files": [
+        "corpus/probe/logs-epoch-ai.range.headers",
+        "corpus/probe/logs-epoch-ai.range.body"
+      ]
+    }
+  ],
+  "any_route_served_bytes_of_the_log": false
+}

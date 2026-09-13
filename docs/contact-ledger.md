@@ -1,0 +1,28 @@
+# Contact ledger
+
+Every external host this project's chats contact, with refused and failed requests. Times are
+UTC. The sandbox network allowlist is in `.claude/settings.json`; a request the local proxy
+refused never left the machine and is marked so.
+
+## IMPL EVAL-RUN-RECORD P0, 2026-09-13
+
+| Time | Host | Request | Why | Result |
+|---|---|---|---|---|
+| — | claude.ai | the Round 0 rulings page (private) | the working contract | read |
+| — | registry.npmjs.org | `npm view` for produce-core 0.4.0 and verify-core 0.9.0; `npm install --save-exact`; `npm ci` twice | the two pinned packages and their three dependencies | 200; lockfile written |
+| 15:45:35 | epoch.ai | GET `/data/ai-benchmarking-dashboard` | find the hub's data and log links | 301 to `/benchmarks`, then 200, 129,270 B |
+| 15:45:50 | epoch.ai | GET `/benchmarks/use-this-data` | the download link, licence and citation | 200, 78,551 B |
+| 15:45:57 | epoch.ai | HEAD `/data/benchmark_data.zip` | type before download | 200, `application/zip` |
+| 15:46:03 | epoch.ai | GET `/data/benchmark_data.zip` | find a GPQA Diamond run, its `Logs` URL and its published score (scratch copy; pinned in P1) | 200, 2,283,225 B |
+| 15:46:56 | logs.epoch.ai | HEAD `/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval` | the log viewer's route to the run's log | **refused by the local proxy** (`X-Proxy-Error: blocked-by-allowlist`); host not yet on the allowlist |
+| 15:46:56 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | HEAD `/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval` | the CSV's `Logs` URL for the run | **refused by the local proxy** (`blocked-by-allowlist`) |
+| 15:52 | — | both exact hostnames added to the allowlist, owner's ruling | | |
+| 15:52:20 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | HEAD, same path | same | **403** |
+| 15:52:20 | logs.epoch.ai | HEAD, same path | same | **405**, `x-amzn-waf-action: captcha` |
+| 15:52:39 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | GET `Range: bytes=0-0`, same path | total size without downloading | **403**, S3 error `AccessDenied` |
+| 15:52:39 | logs.epoch.ai | GET `Range: bytes=0-0`, same path | same | **405**, an HTML page titled "Human Verification" |
+| 15:52:59 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | GET `Range: bytes=0-0` for runs `SadaSwnSdMpYRstc8zvgjJ`, `fu7pWqbSC4MUBdwv3GFNa5`, `TxXS78Wg2pSCDbpmeJuzQn` | whether the denial is specific to one run | **403** `AccessDenied`, all three |
+| 15:52:59 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | GET `/?list-type=2&prefix=inspect_ai_logs/S5QY&max-keys=5` | whether listing is public | **403** `AccessDenied` |
+| 15:53:28 | api.github.com | README of `epoch-research/epochai-python`; metadata (description, file names) of the five gists linked from `epoch.ai/benchmarks` | whether the hub documents a scripted route to its logs | 200; the client reads a user's own copy of an Airtable base with the user's API key; the gists are benchmark implementations; no gist file content read |
+| 16:31:35 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | `corpus/probe.py` (committed in `d5fc615`): HEAD and GET `Range: bytes=0-0` on the run's log | the committed probe | **403**, then **403** `AccessDenied` (`corpus/probe/p0-probe.json`) |
+| 16:31:36 | logs.epoch.ai | `corpus/probe.py`: HEAD and GET `Range: bytes=0-0` on the run's log | the committed probe | **405** `captcha`, then **405** "Human Verification" (`corpus/probe/p0-probe.json`) |
