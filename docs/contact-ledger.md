@@ -51,3 +51,10 @@ refused never left the machine and is marked so.
 
 `node verify.mjs` makes no network request: it reported `network fetch calls: 0`
 (`docs/verify-output.txt` line 32).
+
+## P5, 2026-09-13
+
+| Time | Host | Request | Why | Result |
+|---|---|---|---|---|
+| — | registry.npmjs.org | `npm ci` in a scratch clone | test the README's reproduction steps | 5 packages installed from the lockfile |
+| 22:24:02 | epoch.ai | `corpus/fetch.py --restore` in a scratch clone: GET `/data/benchmark_data.zip` | test the README's reproduction step 2 | 200, 2,283,221 B, ETag `"978ecdf034ef6bdb78b46589dbf63f1a"`; `MISMATCH` against the pinned zip; the run's row (lines 440–442) is identical in both copies |
