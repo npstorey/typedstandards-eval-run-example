@@ -1,0 +1,51 @@
+{
+  "script": "analysis/recompute.py",
+  "script_sha256": "bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c",
+  "input": {
+    "file": "data/S5QYXSvQBRSbUbXSnAGbMm.eval",
+    "sha256": "93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d",
+    "bytes": 15487293
+  },
+  "scorer": "choice",
+  "scorers_present_other_than_choice": {},
+  "value_mapping": {
+    "C": 1,
+    "I": 0,
+    "P": 0.5,
+    "N": 0,
+    "numbers and booleans": "cast to float"
+  },
+  "formula": "mean over every (sample, epoch) record of the mapped `choice` value",
+  "n_samples": 198,
+  "n_epochs": 16,
+  "epochs": [
+    1,
+    16
+  ],
+  "n_records": 3168,
+  "missing_sample_epoch_pairs": [],
+  "duplicate_sample_epoch_pairs": [],
+  "value_counts": {
+    "C": 1613,
+    "I": 1555
+  },
+  "recomputed_score_as_ratio": "1613 / 3168",
+  "recomputed_score_fraction": "1613/3168",
+  "recomputed_score": 0.5091540404040404,
+  "mean_of_sample_means": 0.5091540404040404,
+  "published_score": {
+    "value": "0.5091540404040404",
+    "source": "gpqa_diamond.csv lines 440-442 inside benchmark_data.zip (sha256 e5120e5eba7e7761c989557f3ad1e7ec400cbf98deb642704a111fb79facc6fb)",
+    "url": "https://epoch.ai/data/benchmark_data.zip"
+  },
+  "difference_recomputed_minus_published": 0.0,
+  "log_header_metric": {
+    "source": "header.json results.scores[name=choice].metrics",
+    "accuracy": 0.5091540404040404,
+    "stderr": 0.025861992702770648,
+    "results_total_samples": 3168,
+    "results_completed_samples": 3168
+  },
+  "difference_recomputed_minus_log_header_accuracy": 0.0,
+  "claim": "none about whether either score is correct"
+}
