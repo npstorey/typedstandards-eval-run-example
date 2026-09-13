@@ -1,0 +1,219 @@
+{
+  "protocolVersion": "0.1.0",
+  "packageHash": "abb93f781ae71480bf8075474facbb272f3dcc38d50eeecda79be33427924a9c",
+  "visibility": "public",
+  "captureMethod": "script-run",
+  "contentProfile": "default",
+  "producerProfile": "scripted-recomputation/eval-run",
+  "type": "content/analysis/v1",
+  "signer": {
+    "bindingTier": "pseudonymous",
+    "identifier": "https://github.com/npstorey",
+    "displayName": "Nathan Storey"
+  },
+  "contentHash": {
+    "sha256": "8ee1929871984a5d9a10d210e9311ba9da8fcd39f27c90abc78e976c89fe5427"
+  },
+  "contentCanonicalization": "https://typedstandards.org/canonicalization/legacy-json/v1",
+  "signature": {
+    "signature": "RbjeWhO1oj+G5He60jRwKrg0tv+4t3Uzpuw4ALOPxnUcT1pXIRRZzerhqzsH47BgfDwv9x8OmLan518d6zrkCA==",
+    "publicKey": "MCowBQYDK2VwAyEA0af1lmbg+p+OQDcQUje+9f6CE1Wq5hFbPfDNBvsdOaw=",
+    "algorithm": "Ed25519ph",
+    "kid": "eval-run-example:ed25519-2026-09"
+  },
+  "rfc3161Timestamp": "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",
+  "rekorEntryId": "108e9186e8c5677a222ca4ef003c262b1a98b14d7d165dbfa4e10b3a80445e66e9bddd1c78b11a14",
+  "rekorInclusionProof": "{\"checkpoint\":\"rekor.sigstore.dev - 1193050959916656506\\n2700728037\\nYG0YJQiP8vh8b6/71YjvY9CUOq6iaOdstIJDh0W+nbE=\\n\\n— rekor.sigstore.dev wNI9ajBGAiEA+w/roHeLfs3lB24j4TxBEvDq7WrJ/RwfKC+8yO46yDcCIQDJvtXMGqAVYUzah2WEtF5rkQeFA1WtRF3WtMeWWJ2yiw==\\n\",\"hashes\":[\"e8aa4093d265533866d1c6b5656d80297e274b35b274a3b89a78de68ed153eda\",\"3a048cff63773408acd46a9a9f469e092b784f2bede122a1de4a6e53e675454a\",\"9535efd84aa662350113a99a8cbfbc9533d0d68fbfdd4ecb6ae786203c29048b\",\"0a40bc780780b9f310a0b51131adc0aa4ddbfcdadf427896dbc86968e191e572\",\"1e0c15f24c4f131d4bec9c3c8f1419b128e7ffafceaba83b01cf53540be779f5\",\"c15f9b1ee04e43bb92b59590c7b867f19e961a770b1a8dcc5cf8e51f8d108115\",\"f23edfc4077091e4729de59d7096150b6d4af597c6360a27c31ce949c554db9f\",\"685aeb820142eb1fcab1ea70cde52e56755826ab7e48c66ee2258fe6c894ccd4\",\"6c32b5b19aad9fb3cf5194866f02e3f1e6c9e7641e794eb847aadd307509f6a4\",\"d5223710a9d25f66dbee6813696e9281740a7bc44bb5d66bd43ce32031352a9d\",\"eb87f1374eb238540cfedd6670a27236166ead6a26dbdf4d75a502f5cc73f7cb\",\"fba5bcd6d26e486fd10bf05f288ed080da25f7173f741c668d8749405bc29517\",\"e0c989f304906311f6459756a1c486c602cc428be5b44eb03173012cd318f5fb\",\"8ebaa61ab0123f27c4f41810941e9515314e9e32cefd88e43ba89b71cd7333af\",\"0988079bf267042382e887d30b039431a5846cad049c3eba67abed1b455ec04e\",\"de6c84b1d34dbff2e1ae87d0e4e98bd1dea262713f11568bbcf1e546440833e5\",\"4b7f66d9e4c3d6ba91b8032ce2bfac1ac608c16d019535aecac593289f112959\",\"ab1cc76a7033cf9ed20dd9897b407b6c92bbd8d4c805bc043060412af0ce44ec\",\"c47fc30ac78b1ebf5e2a8613f2ab0e4592bbcd5744198587b95b6c56b0fde706\"],\"logIndex\":2700728033,\"rootHash\":\"606d1825088ff2f87c6faffbd588ef63d0943aaea268e76cb482438745be9db1\",\"treeSize\":2700728037}",
+  "rekorEntryBody": "eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhNTEyIiwidmFsdWUiOiIxYWRiYmQ5NjY3Yjg2MzllYTE1ZTNmMTgzYjc5Yjk0YjMxNDhmMWM2OWUxYzRmNjM1ZTg0ZTZiZDJlMTU3OGU4ZjVhNDUzZDUzNjllNDAwN2NhNGZkNGQwNWI5ODM0Y2Y2OGZiMGFmNjQ4YWY3N2Y1MDhhNTc3ZTBiYmU3YTYzZiJ9fSwic2lnbmF0dXJlIjp7ImNvbnRlbnQiOiJSYmplV2hPMW9qK0c1SGU2MGpSd0tyZzB0dis0dDNVenB1dzRBTE9QeG5VY1QxcFhJUlJaemVyaHF6c0g0N0JnZkR3djl4OE9tTGFuNTE4ZDZ6cmtDQT09IiwicHVibGljS2V5Ijp7ImNvbnRlbnQiOiJMUzB0TFMxQ1JVZEpUaUJRVlVKTVNVTWdTMFZaTFMwdExTMEtUVU52ZDBKUldVUkxNbFozUVhsRlFUQmhaakZzYldKbkszQXJUMUZFWTFGVmFtVXJPV1kyUTBVeFYzRTFhRVppVUdaRVRrSjJjMlJQWVhjOUNpMHRMUzB0UlU1RUlGQlZRa3hKUXlCTFJWa3RMUzB0TFFvPSJ9fX19",
+  "trustRegistryUrl": "https://raw.githubusercontent.com/npstorey/typedstandards-eval-run-example/main/package/trust-registry.json",
+  "subjectTitle": "Recomputation: Epoch AI Benchmarking Hub GPQA Diamond run S5QYXSvQBRSbUbXSnAGbMm",
+  "subjectSummary": "Recomputation for run S5QYXSvQBRSbUbXSnAGbMm: 1613 / 3168 = 0.5091540404040404 from the pinned log; the hub's published mean_score is 0.5091540404040404; difference 0. No claim is made about whether either score is correct.",
+  "package": {
+    "metadata": {
+      "schemaVersion": "0.1.0",
+      "packageId": "ab822abb-9c0f-485a-8012-008b51261f65",
+      "createdAt": "2026-09-13T22:07:05.697Z",
+      "signingKeyId": "eval-run-example:ed25519-2026-09",
+      "captureMethod": "script-run"
+    },
+    "producerProfile": "scripted-recomputation/eval-run",
+    "type": "content/analysis/v1",
+    "signer": {
+      "bindingTier": "pseudonymous",
+      "identifier": "https://github.com/npstorey",
+      "displayName": "Nathan Storey"
+    },
+    "contentCanonicalization": "https://typedstandards.org/canonicalization/legacy-json/v1",
+    "prompt": {
+      "hash": "726717c0bdcac3baa4743105b30766de38e92fb39c4b75c45afbc53928763ef3",
+      "visibility": "full_text",
+      "text": "Recompute accuracy for GPQA Diamond run S5QYXSvQBRSbUbXSnAGbMm from the per-sample scores in the pinned log, with the formula frozen in docs/p2-preregistration.md."
+    },
+    "queries": [
+      {
+        "tool": "python3",
+        "operationType": "script-run",
+        "arguments": {
+          "script": "analysis/recompute.py",
+          "scriptSha256": "bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c",
+          "input": "data/S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "inputSha256": "93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d",
+          "preregistration": "docs/p2-preregistration.md",
+          "freezeCommit": "959b2bb2621a643df45d5385a8ea6338ea9da9d3"
+        }
+      }
+    ],
+    "dataSources": [
+      {
+        "sourceId": "retrieval-record",
+        "catalogType": "record-package",
+        "portalUrl": "https://github.com/npstorey/typedstandards-eval-run-example",
+        "datasetId": "3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48",
+        "accessTimestamp": "2026-09-13T21:58:40Z"
+      }
+    ],
+    "cost": {
+      "model": "none"
+    },
+    "skillMetadata": {},
+    "output": "{\n  \"script\": \"analysis/recompute.py\",\n  \"script_sha256\": \"bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c\",\n  \"input\": {\n    \"file\": \"data/S5QYXSvQBRSbUbXSnAGbMm.eval\",\n    \"sha256\": \"93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d\",\n    \"bytes\": 15487293\n  },\n  \"scorer\": \"choice\",\n  \"scorers_present_other_than_choice\": {},\n  \"value_mapping\": {\n    \"C\": 1,\n    \"I\": 0,\n    \"P\": 0.5,\n    \"N\": 0,\n    \"numbers and booleans\": \"cast to float\"\n  },\n  \"formula\": \"mean over every (sample, epoch) record of the mapped `choice` value\",\n  \"n_samples\": 198,\n  \"n_epochs\": 16,\n  \"epochs\": [\n    1,\n    16\n  ],\n  \"n_records\": 3168,\n  \"missing_sample_epoch_pairs\": [],\n  \"duplicate_sample_epoch_pairs\": [],\n  \"value_counts\": {\n    \"C\": 1613,\n    \"I\": 1555\n  },\n  \"recomputed_score_as_ratio\": \"1613 / 3168\",\n  \"recomputed_score_fraction\": \"1613/3168\",\n  \"recomputed_score\": 0.5091540404040404,\n  \"mean_of_sample_means\": 0.5091540404040404,\n  \"published_score\": {\n    \"value\": \"0.5091540404040404\",\n    \"source\": \"gpqa_diamond.csv lines 440-442 inside benchmark_data.zip (sha256 e5120e5eba7e7761c989557f3ad1e7ec400cbf98deb642704a111fb79facc6fb)\",\n    \"url\": \"https://epoch.ai/data/benchmark_data.zip\"\n  },\n  \"difference_recomputed_minus_published\": 0.0,\n  \"log_header_metric\": {\n    \"source\": \"header.json results.scores[name=choice].metrics\",\n    \"accuracy\": 0.5091540404040404,\n    \"stderr\": 0.025861992702770648,\n    \"results_total_samples\": 3168,\n    \"results_completed_samples\": 3168\n  },\n  \"difference_recomputed_minus_log_header_accuracy\": 0.0,\n  \"claim\": \"none about whether either score is correct\"\n}\n",
+    "trace": {
+      "resourceSpans": []
+    },
+    "summary": "Recomputation for run S5QYXSvQBRSbUbXSnAGbMm: 1613 / 3168 = 0.5091540404040404 from the pinned log; the hub's published mean_score is 0.5091540404040404; difference 0. No claim is made about whether either score is correct.",
+    "provenance": {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "ex": "https://github.com/npstorey/typedstandards-eval-run-example#"
+      },
+      "@graph": [
+        {
+          "@id": "urn:eval-run-example:node:3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48",
+          "@type": "prov:Entity",
+          "dcterms:description": "Retrieval record node, identified by its envelope hash",
+          "ex:envelopeHash": "3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48"
+        },
+        {
+          "@id": "urn:eval-run-example:file:sha256:bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c",
+          "@type": [
+            "prov:Entity",
+            "prov:Plan"
+          ],
+          "dcterms:title": "analysis/recompute.py",
+          "dcterms:description": "Recomputation script, committed unrun in 959b2bb2621a643df45d5385a8ea6338ea9da9d3",
+          "ex:sha256": "bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c"
+        },
+        {
+          "@id": "urn:eval-run-example:activity:recompute:54ab7c6f1817f395d1685c920336e59927cfc1c5a559fd3f883f62a1a3313126",
+          "@type": "prov:Activity",
+          "dcterms:description": "python3 analysis/recompute.py",
+          "prov:startedAtTime": {
+            "@value": "2026-09-13T21:58:40Z",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-09-13T21:58:41Z",
+            "@type": "xsd:dateTime"
+          },
+          "prov:used": [
+            {
+              "@id": "urn:eval-run-example:node:3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48"
+            },
+            {
+              "@id": "urn:eval-run-example:file:sha256:bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c"
+            }
+          ]
+        },
+        {
+          "@id": "urn:eval-run-example:file:sha256:54ab7c6f1817f395d1685c920336e59927cfc1c5a559fd3f883f62a1a3313126",
+          "@type": "prov:Entity",
+          "dcterms:title": "analysis/out/recomputation.json",
+          "ex:sha256": "54ab7c6f1817f395d1685c920336e59927cfc1c5a559fd3f883f62a1a3313126",
+          "prov:wasGeneratedBy": {
+            "@id": "urn:eval-run-example:activity:recompute:54ab7c6f1817f395d1685c920336e59927cfc1c5a559fd3f883f62a1a3313126"
+          },
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:eval-run-example:node:3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48"
+            }
+          ]
+        }
+      ]
+    },
+    "extensions": {
+      "io.github.npstorey.eval-run-example": {
+        "role": "recomputation",
+        "repository": "https://github.com/npstorey/typedstandards-eval-run-example",
+        "run": {
+          "hub": "Epoch AI Benchmarking Hub",
+          "benchmark": "GPQA Diamond",
+          "runId": "S5QYXSvQBRSbUbXSnAGbMm"
+        },
+        "script": {
+          "path": "analysis/recompute.py",
+          "sha256": "bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c",
+          "freezeCommit": "959b2bb2621a643df45d5385a8ea6338ea9da9d3"
+        },
+        "preregistration": {
+          "path": "docs/p2-preregistration.md",
+          "sha256": "18cbf2e63f98dffd8007e55f5372566f7ffbc2d02fd7931f5ccbb23c0224a2e1"
+        },
+        "input": {
+          "path": "data/S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "sha256": "93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d",
+          "bytes": 15487293
+        },
+        "output": {
+          "path": "analysis/out/recomputation.json",
+          "sha256": "54ab7c6f1817f395d1685c920336e59927cfc1c5a559fd3f883f62a1a3313126"
+        },
+        "scores": {
+          "recomputed": 0.5091540404040404,
+          "recomputedFraction": "1613/3168",
+          "published": {
+            "value": "0.5091540404040404",
+            "source": "gpqa_diamond.csv lines 440-442 inside benchmark_data.zip (sha256 e5120e5eba7e7761c989557f3ad1e7ec400cbf98deb642704a111fb79facc6fb)",
+            "url": "https://epoch.ai/data/benchmark_data.zip"
+          },
+          "differenceRecomputedMinusPublished": 0,
+          "logHeaderAccuracy": 0.5091540404040404,
+          "differenceRecomputedMinusLogHeader": 0
+        },
+        "derivedFrom": {
+          "role": "retrieval-record",
+          "envelopeHash": "3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48",
+          "packageId": "74a11e1f-c17e-469c-a78e-8f4a1f76773d"
+        },
+        "runTime": {
+          "startedAt": "2026-09-13T21:58:40Z",
+          "endedAt": "2026-09-13T21:58:41Z",
+          "basis": "date -u before and after the run, docs/p2-record.md section 1"
+        },
+        "claim": "none about whether either score is correct"
+      }
+    },
+    "contentHash": {
+      "sha256": "8ee1929871984a5d9a10d210e9311ba9da8fcd39f27c90abc78e976c89fe5427"
+    }
+  },
+  "trustRegistry": {
+    "$comment": "Key registry for the record packages in https://github.com/npstorey/typedstandards-eval-run-example. A verifier matches a signature's (kid, publicKey) pair against this list. The signing seed is held outside the repository.",
+    "keys": [
+      {
+        "kid": "eval-run-example:ed25519-2026-09",
+        "publicKey": "MCowBQYDK2VwAyEA0af1lmbg+p+OQDcQUje+9f6CE1Wq5hFbPfDNBvsdOaw=",
+        "status": "active",
+        "activatedAt": "2026-09-13T22:07:00Z",
+        "deprecatedAt": null,
+        "revokedAt": null,
+        "signerIdentity": {
+          "bindingTier": "pseudonymous",
+          "identifier": "https://github.com/npstorey",
+          "displayName": "Nathan Storey"
+        }
+      }
+    ]
+  }
+}

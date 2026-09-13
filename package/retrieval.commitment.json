@@ -1,0 +1,265 @@
+{
+  "protocolVersion": "0.1.0",
+  "packageHash": "3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48",
+  "visibility": "public",
+  "captureMethod": "script-run",
+  "contentProfile": "default",
+  "producerProfile": "scripted-recomputation/eval-run",
+  "type": "content/analysis/v1",
+  "signer": {
+    "bindingTier": "pseudonymous",
+    "identifier": "https://github.com/npstorey",
+    "displayName": "Nathan Storey"
+  },
+  "contentHash": {
+    "sha256": "f9524561dc9b53325a7ace48fedbfd6959fff4187a73e5dd79d5bb127c9027e0"
+  },
+  "contentCanonicalization": "https://typedstandards.org/canonicalization/legacy-json/v1",
+  "signature": {
+    "signature": "pYY+Hk5PK6xBehHz7g6m6lAmLQy9zwdRkoE2qowoceRwaWlHLUhNce/5tcLCsohYdXV80TbbRfyv5uy+EdghAw==",
+    "publicKey": "MCowBQYDK2VwAyEA0af1lmbg+p+OQDcQUje+9f6CE1Wq5hFbPfDNBvsdOaw=",
+    "algorithm": "Ed25519ph",
+    "kid": "eval-run-example:ed25519-2026-09"
+  },
+  "rfc3161Timestamp": "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",
+  "rekorEntryId": "108e9186e8c5677aecac2ae9104953af1138dae6409d85a24e519293bf8683c609282a7c69e7986c",
+  "rekorInclusionProof": "{\"checkpoint\":\"rekor.sigstore.dev - 1193050959916656506\\n2700728023\\nTbsI22BKzGBwntszdjfOMC5gB9hjXqHdEosZBR1oa1o=\\n\\n— rekor.sigstore.dev wNI9ajBFAiEAxMC57klmfQ1owl91s6sY4tyiVY+zINek23oMQ20GnzwCIFQfaWOPlNk3qJwhiDji80kmDCLcbMXZwfhEus7OpRlp\\n\",\"hashes\":[\"67c089c138996079cb8e7f32ee5a2b32d9b0b691a01ab0b13cc5f210823e3dc1\",\"7d66a40be1b5877a4cf9dab7fecf56ee41fe0c32c52785503b86f80547767551\",\"a3829cffc24a485dcfba3ab640435852b27fee7d91c4a35d3ee2795eea60daa5\",\"07415f9a130daa339c2117630d5124578b3386bcfc596ff5dc60a286c806f530\",\"1e0c15f24c4f131d4bec9c3c8f1419b128e7ffafceaba83b01cf53540be779f5\",\"c15f9b1ee04e43bb92b59590c7b867f19e961a770b1a8dcc5cf8e51f8d108115\",\"f23edfc4077091e4729de59d7096150b6d4af597c6360a27c31ce949c554db9f\",\"685aeb820142eb1fcab1ea70cde52e56755826ab7e48c66ee2258fe6c894ccd4\",\"6c32b5b19aad9fb3cf5194866f02e3f1e6c9e7641e794eb847aadd307509f6a4\",\"d5223710a9d25f66dbee6813696e9281740a7bc44bb5d66bd43ce32031352a9d\",\"eb87f1374eb238540cfedd6670a27236166ead6a26dbdf4d75a502f5cc73f7cb\",\"fba5bcd6d26e486fd10bf05f288ed080da25f7173f741c668d8749405bc29517\",\"e0c989f304906311f6459756a1c486c602cc428be5b44eb03173012cd318f5fb\",\"8ebaa61ab0123f27c4f41810941e9515314e9e32cefd88e43ba89b71cd7333af\",\"0988079bf267042382e887d30b039431a5846cad049c3eba67abed1b455ec04e\",\"de6c84b1d34dbff2e1ae87d0e4e98bd1dea262713f11568bbcf1e546440833e5\",\"4b7f66d9e4c3d6ba91b8032ce2bfac1ac608c16d019535aecac593289f112959\",\"ab1cc76a7033cf9ed20dd9897b407b6c92bbd8d4c805bc043060412af0ce44ec\",\"c47fc30ac78b1ebf5e2a8613f2ab0e4592bbcd5744198587b95b6c56b0fde706\"],\"logIndex\":2700728018,\"rootHash\":\"4dbb08db604acc60709edb337637ce302e6007d8635ea1dd128b19051d686b5a\",\"treeSize\":2700728023}",
+  "rekorEntryBody": "eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhNTEyIiwidmFsdWUiOiJkZTEwMjU1N2E0MDQzNjA3Mjc1MDI5M2JjNDliZjQ4MDgwNjkzMmM5ZGE2MmYxMGFhOTFhM2JiOGRhNjdiMjA4MzYzOTE0MGNhMjJlMWM4ZTM1YTlmMzZiZGE5ZDkzNDM5ZDIyMGI2YzViZTJkMmZjNDA3MTIxNWM3YzIzZmNkMCJ9fSwic2lnbmF0dXJlIjp7ImNvbnRlbnQiOiJwWVkrSGs1UEs2eEJlaEh6N2c2bTZsQW1MUXk5endkUmtvRTJxb3dvY2VSd2FXbEhMVWhOY2UvNXRjTENzb2hZZFhWODBUYmJSZnl2NXV5K0VkZ2hBdz09IiwicHVibGljS2V5Ijp7ImNvbnRlbnQiOiJMUzB0TFMxQ1JVZEpUaUJRVlVKTVNVTWdTMFZaTFMwdExTMEtUVU52ZDBKUldVUkxNbFozUVhsRlFUQmhaakZzYldKbkszQXJUMUZFWTFGVmFtVXJPV1kyUTBVeFYzRTFhRVppVUdaRVRrSjJjMlJQWVhjOUNpMHRMUzB0UlU1RUlGQlZRa3hKUXlCTFJWa3RMUzB0TFFvPSJ9fX19",
+  "trustRegistryUrl": "https://raw.githubusercontent.com/npstorey/typedstandards-eval-run-example/main/package/trust-registry.json",
+  "subjectTitle": "Retrieval record: Epoch AI Benchmarking Hub GPQA Diamond run S5QYXSvQBRSbUbXSnAGbMm",
+  "subjectSummary": "Retrieval record for Epoch AI Benchmarking Hub run S5QYXSvQBRSbUbXSnAGbMm (GPQA Diamond): the Inspect log pinned by SHA-256 93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d (15487293 bytes), and the hub's published mean_score 0.5091540404040404. Model identity is as the source asserts it.",
+  "package": {
+    "metadata": {
+      "schemaVersion": "0.1.0",
+      "packageId": "74a11e1f-c17e-469c-a78e-8f4a1f76773d",
+      "createdAt": "2026-09-13T22:07:05.696Z",
+      "signingKeyId": "eval-run-example:ed25519-2026-09",
+      "captureMethod": "script-run"
+    },
+    "producerProfile": "scripted-recomputation/eval-run",
+    "type": "content/analysis/v1",
+    "signer": {
+      "bindingTier": "pseudonymous",
+      "identifier": "https://github.com/npstorey",
+      "displayName": "Nathan Storey"
+    },
+    "contentCanonicalization": "https://typedstandards.org/canonicalization/legacy-json/v1",
+    "prompt": {
+      "hash": "81cf9e6fc6b7e8199f30fdf98e15743e975a4613d29db4bec4e2089b7cf138c8",
+      "visibility": "full_text",
+      "text": "Record the retrieval of the Epoch AI Benchmarking Hub's Inspect evaluation log for GPQA Diamond run S5QYXSvQBRSbUbXSnAGbMm, and of the hub data file that publishes the run's score."
+    },
+    "queries": [
+      {
+        "tool": "curl",
+        "operationType": "retrieve",
+        "arguments": {
+          "url": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "request": "GET Range: bytes=0-0",
+          "httpStatus": 403,
+          "evidence": "corpus/probe/p0-probe.json"
+        },
+        "failed": true,
+        "failureKind": "unavailable"
+      },
+      {
+        "tool": "browser",
+        "operationType": "retrieve",
+        "arguments": {
+          "url": "https://logs.epoch.ai/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "transport": "browser, after the host's human-verification step"
+        }
+      },
+      {
+        "tool": "curl",
+        "operationType": "retrieve",
+        "arguments": {
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "httpStatus": 200
+        }
+      }
+    ],
+    "dataSources": [
+      {
+        "sourceId": "epoch-ai-benchmarking-hub",
+        "catalogType": "benchmark-hub",
+        "portalUrl": "https://epoch.ai/benchmarks",
+        "datasetId": "S5QYXSvQBRSbUbXSnAGbMm",
+        "datasetUrl": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+        "accessTimestamp": "2026-09-13T21:44:15Z"
+      },
+      {
+        "sourceId": "epoch-ai-benchmarking-hub",
+        "catalogType": "benchmark-hub",
+        "portalUrl": "https://epoch.ai/benchmarks/use-this-data",
+        "datasetId": "benchmark_data.zip",
+        "datasetUrl": "https://epoch.ai/data/benchmark_data.zip",
+        "accessTimestamp": "2026-09-13T21:47:46Z"
+      }
+    ],
+    "cost": {
+      "model": "none"
+    },
+    "skillMetadata": {},
+    "output": {
+      "ref": "blob:sha256:93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d",
+      "url": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+      "contentType": "application/zip",
+      "size": 15487293
+    },
+    "trace": {
+      "resourceSpans": []
+    },
+    "summary": "Retrieval record for Epoch AI Benchmarking Hub run S5QYXSvQBRSbUbXSnAGbMm (GPQA Diamond): the Inspect log pinned by SHA-256 93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d (15487293 bytes), and the hub's published mean_score 0.5091540404040404. Model identity is as the source asserts it.",
+    "extensions": {
+      "io.github.npstorey.eval-run-example": {
+        "role": "retrieval-record",
+        "repository": "https://github.com/npstorey/typedstandards-eval-run-example",
+        "run": {
+          "hub": "Epoch AI Benchmarking Hub",
+          "benchmark": "GPQA Diamond",
+          "table": "gpqa_diamond.csv",
+          "runId": "S5QYXSvQBRSbUbXSnAGbMm"
+        },
+        "log": {
+          "file": "S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "sha256": "93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d",
+          "bytes": 15487293,
+          "url": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "urlRetrieved": "https://logs.epoch.ai/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+          "transport": "browser, after the host's human-verification step",
+          "retrievedAt": "2026-09-13T21:44:15Z",
+          "retrievedAtBasis": "stated by the owner, who downloaded the file",
+          "httpHeaders": null,
+          "httpHeadersAbsent": "browser retrieval: there is no header dump and no Content-Length",
+          "scriptedRoute": {
+            "url": "https://epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval",
+            "result": "HTTP 403, S3 error AccessDenied",
+            "evidence": "corpus/probe/p0-probe.json"
+          },
+          "secondRetrieval": "not possible: the S3 route answers AccessDenied, so no byte comparison was made",
+          "contentTypeBasis": "the file begins with the ZIP local-file signature; no server Content-Type was recorded",
+          "sizeGate": {
+            "rule": "bytes <= 50000000, from the file system, before the file is opened",
+            "bytes": 15487293,
+            "pass": true,
+            "bytes_hashed": 15487293
+          },
+          "identityCheck": {
+            "pass": true,
+            "checks": {
+              "run_id": {
+                "rule": "the CSV `id` equals at least one of eval.eval_id, eval.run_id, eval.task_id",
+                "csv": "S5QYXSvQBRSbUbXSnAGbMm",
+                "matching_fields": [
+                  "eval.run_id"
+                ],
+                "pass": true
+              },
+              "task": {
+                "rule": "eval.task contains 'gpqa' (case-folded) and eval.dataset.samples == 198",
+                "csv_table": "gpqa_diamond.csv",
+                "log_task": "GPQA Diamond",
+                "log_dataset_samples": 198,
+                "pass": true
+              },
+              "model": {
+                "rule": "the CSV `Model version`, lower-cased with non-alphanumerics removed, is a substring of eval.model normalised the same way",
+                "csv": "Llama-3.1-405B-Instruct",
+                "log": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
+                "pass": true
+              }
+            },
+            "logHeader": {
+              "member": "header.json",
+              "archive_members": 3173,
+              "sample_members": 3168,
+              "log_format_version": 2,
+              "status": "success",
+              "eval.eval_id": null,
+              "eval.run_id": "S5QYXSvQBRSbUbXSnAGbMm",
+              "eval.task_id": "KxNE6xjTESRmkqZcvy9ba7",
+              "eval.task": "GPQA Diamond",
+              "eval.created": "2025-01-20T17:01:32+00:00",
+              "eval.model": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
+              "eval.dataset.name": "Idavidrein/gpqa",
+              "eval.dataset.samples": 198,
+              "eval.config.epochs": 16
+            },
+            "csvRowLines": [
+              440,
+              442
+            ]
+          },
+          "licence": "not stated",
+          "licenceContext": "https://epoch.ai/benchmarks/use-this-data: Epoch AI's data is under CC BY 4.0, and benchmark questions and answers are the property of their respective creators; neither statement names the logs",
+          "citation": "Epoch AI, ‘Capabilities & Benchmarking’. Published online at epoch.ai. Retrieved from ‘https://epoch.ai/benchmarks’ [online resource]."
+        },
+        "hubDataFile": {
+          "file": "benchmark_data.zip",
+          "sha256": "e5120e5eba7e7761c989557f3ad1e7ec400cbf98deb642704a111fb79facc6fb",
+          "bytes": 2283227,
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "retrievedAt": "2026-09-13T21:47:46Z",
+          "httpStatus": 200,
+          "httpContentLength": 2283227,
+          "httpEtag": "\"8d41e993ba7558cb1efbaf39c26f5578\"",
+          "licence": "CC-BY-4.0",
+          "citation": "Epoch AI, ‘Capabilities & Benchmarking’. Published online at epoch.ai. Retrieved from ‘https://epoch.ai/benchmarks’ [online resource]."
+        },
+        "publishedScore": {
+          "value": "0.5091540404040404",
+          "column": "mean_score",
+          "stderr": "0.025861992702770648",
+          "best_score_across_scorers": "0.5091540404040404",
+          "source": "gpqa_diamond.csv lines 440-442 inside benchmark_data.zip (sha256 e5120e5eba7e7761c989557f3ad1e7ec400cbf98deb642704a111fb79facc6fb)",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "read_at": "2026-09-13T21:47:46Z"
+        },
+        "model": {
+          "identifier": {
+            "value": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
+            "source": "header.json eval.model",
+            "basis": "asserted-from-source"
+          },
+          "version": {
+            "value": "Llama-3.1-405B-Instruct",
+            "source": "gpqa_diamond.csv lines 440-442 inside benchmark_data.zip (sha256 e5120e5eba7e7761c989557f3ad1e7ec400cbf98deb642704a111fb79facc6fb), column `Model version`",
+            "basis": "asserted-from-source"
+          }
+        },
+        "inputs": {
+          "manifest": {
+            "path": "corpus/manifest.json",
+            "sha256": "2887035407e4ce3495991d59c5840878a5e2b2e6f28baaba3266cb15066f9d18"
+          },
+          "identity": {
+            "path": "corpus/p1-identity.json",
+            "sha256": "f6c5ce1f6843e94a8cff3eafcecb9e5ae12d21ee688defab282e82fd037eddc2"
+          }
+        }
+      }
+    },
+    "contentHash": {
+      "sha256": "f9524561dc9b53325a7ace48fedbfd6959fff4187a73e5dd79d5bb127c9027e0"
+    }
+  },
+  "trustRegistry": {
+    "$comment": "Key registry for the record packages in https://github.com/npstorey/typedstandards-eval-run-example. A verifier matches a signature's (kid, publicKey) pair against this list. The signing seed is held outside the repository.",
+    "keys": [
+      {
+        "kid": "eval-run-example:ed25519-2026-09",
+        "publicKey": "MCowBQYDK2VwAyEA0af1lmbg+p+OQDcQUje+9f6CE1Wq5hFbPfDNBvsdOaw=",
+        "status": "active",
+        "activatedAt": "2026-09-13T22:07:00Z",
+        "deprecatedAt": null,
+        "revokedAt": null,
+        "signerIdentity": {
+          "bindingTier": "pseudonymous",
+          "identifier": "https://github.com/npstorey",
+          "displayName": "Nathan Storey"
+        }
+      }
+    ]
+  }
+}

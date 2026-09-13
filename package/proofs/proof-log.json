@@ -1,0 +1,32 @@
+{
+  "requests": [
+    {
+      "node": "retrieval",
+      "service": "freetsa.org",
+      "requestedAt": "2026-09-13T22:07:34Z",
+      "httpStatus": 200,
+      "headers": "package/proofs/retrieval.tsr.headers"
+    },
+    {
+      "node": "recomputation",
+      "service": "freetsa.org",
+      "requestedAt": "2026-09-13T22:07:34Z",
+      "httpStatus": 200,
+      "headers": "package/proofs/recomputation.tsr.headers"
+    },
+    {
+      "node": "retrieval",
+      "service": "rekor.sigstore.dev",
+      "requestedAt": "2026-09-13T22:07:35Z",
+      "httpStatus": 201,
+      "headers": "package/proofs/retrieval.rekor-response.json.headers"
+    },
+    {
+      "node": "recomputation",
+      "service": "rekor.sigstore.dev",
+      "requestedAt": "2026-09-13T22:07:35Z",
+      "httpStatus": 201,
+      "headers": "package/proofs/recomputation.rekor-response.json.headers"
+    }
+  ]
+}

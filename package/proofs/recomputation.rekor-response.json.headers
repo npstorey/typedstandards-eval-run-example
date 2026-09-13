@@ -1,0 +1,11 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 201 
+content-type: application/json
+etag: 108e9186e8c5677a222ca4ef003c262b1a98b14d7d165dbfa4e10b3a80445e66e9bddd1c78b11a14
+location: /api/v1/log/entries/108e9186e8c5677a222ca4ef003c262b1a98b14d7d165dbfa4e10b3a80445e66e9bddd1c78b11a14
+vary: Origin
+date: Sun, 13 Sep 2026 22:07:35 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+

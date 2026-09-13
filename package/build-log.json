@@ -1,0 +1,64 @@
+{
+  "kid": "eval-run-example:ed25519-2026-09",
+  "signer": {
+    "bindingTier": "pseudonymous",
+    "identifier": "https://github.com/npstorey",
+    "displayName": "Nathan Storey"
+  },
+  "producerProfile": "scripted-recomputation/eval-run",
+  "captureMethod": "script-run",
+  "type": "content/analysis/v1",
+  "versions": {
+    "produceCore": "0.4.0",
+    "verifyCore": "0.9.0",
+    "node": "22.23.1"
+  },
+  "inputs": {
+    "manifest": {
+      "path": "corpus/manifest.json",
+      "sha256": "2887035407e4ce3495991d59c5840878a5e2b2e6f28baaba3266cb15066f9d18"
+    },
+    "identity": {
+      "path": "corpus/p1-identity.json",
+      "sha256": "f6c5ce1f6843e94a8cff3eafcecb9e5ae12d21ee688defab282e82fd037eddc2"
+    },
+    "script": {
+      "path": "analysis/recompute.py",
+      "sha256": "bcc5ffaec70174aa8beef04c0430ac469570a8fffc33e295322311fd57a4d61c"
+    },
+    "preregistration": {
+      "path": "docs/p2-preregistration.md",
+      "sha256": "18cbf2e63f98dffd8007e55f5372566f7ffbc2d02fd7931f5ccbb23c0224a2e1"
+    },
+    "output": {
+      "path": "analysis/out/recomputation.json",
+      "sha256": "54ab7c6f1817f395d1685c920336e59927cfc1c5a559fd3f883f62a1a3313126"
+    }
+  },
+  "nodes": {
+    "retrieval": {
+      "packageId": "74a11e1f-c17e-469c-a78e-8f4a1f76773d",
+      "createdAt": "2026-09-13T22:07:05.696Z",
+      "envelopeHash": "3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48",
+      "file": "package/retrieval.package.json",
+      "signature": {
+        "signature": "pYY+Hk5PK6xBehHz7g6m6lAmLQy9zwdRkoE2qowoceRwaWlHLUhNce/5tcLCsohYdXV80TbbRfyv5uy+EdghAw==",
+        "publicKey": "MCowBQYDK2VwAyEA0af1lmbg+p+OQDcQUje+9f6CE1Wq5hFbPfDNBvsdOaw=",
+        "algorithm": "Ed25519ph",
+        "kid": "eval-run-example:ed25519-2026-09"
+      }
+    },
+    "recomputation": {
+      "packageId": "ab822abb-9c0f-485a-8012-008b51261f65",
+      "createdAt": "2026-09-13T22:07:05.697Z",
+      "envelopeHash": "abb93f781ae71480bf8075474facbb272f3dcc38d50eeecda79be33427924a9c",
+      "file": "package/recomputation.package.json",
+      "signature": {
+        "signature": "RbjeWhO1oj+G5He60jRwKrg0tv+4t3Uzpuw4ALOPxnUcT1pXIRRZzerhqzsH47BgfDwv9x8OmLan518d6zrkCA==",
+        "publicKey": "MCowBQYDK2VwAyEA0af1lmbg+p+OQDcQUje+9f6CE1Wq5hFbPfDNBvsdOaw=",
+        "algorithm": "Ed25519ph",
+        "kid": "eval-run-example:ed25519-2026-09"
+      }
+    }
+  }
+}
