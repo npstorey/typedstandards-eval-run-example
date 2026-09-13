@@ -39,3 +39,15 @@ refused never left the machine and is marked so.
 | Time | Host | Request | Why | Result |
 |---|---|---|---|---|
 | 21:50:51 | api.github.com | `UKGovernmentBEIS/inspect_ai`: tag ref `0.3.57`; contents of `src/inspect_ai/scorer/_metric.py`, `_metrics/accuracy.py` and `_choice.py` at that tag | the value mapping the log's scorer and metric use, for the preregistration | 200; tag at commit `e2add88f`; files read |
+
+## P3, 2026-09-13
+
+| Time | Host | Request | Why | Result |
+|---|---|---|---|---|
+| 22:07:34 | freetsa.org | `package/build.mjs prove`: POST `/tsr` (`application/timestamp-query`), once per envelope hash | RFC 3161 tokens for both nodes | 200 twice; `package/proofs/<node>.tsr` |
+| 22:07:35 | rekor.sigstore.dev | `package/build.mjs prove`: POST `/api/v1/log/entries` (`hashedrekord`), once per envelope hash | public log entries for both nodes (ruling D6) | 201 twice; log indexes 2822632280 and 2822632295; `package/proofs/<node>.rekor-response.json` |
+
+## P4, 2026-09-13
+
+`node verify.mjs` makes no network request: it reported `network fetch calls: 0`
+(`docs/verify-output.txt` line 32).

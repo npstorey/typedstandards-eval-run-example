@@ -1,0 +1,33 @@
+verify-core 0.9.0 (pinned 0.9.0), node 22.23.1
+
+retrieval  package/retrieval.commitment.json
+  #1 envelope integrity      ok    verified; recomputed 3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48
+  #2 signature               ok    valid (Ed25519ph, kid eval-run-example:ed25519-2026-09)
+  #5 key status              ok    active in the registry carried in the bundle
+  #7 RFC 3161 timestamp      ok    verified=true genTime=2026-09-13T22:07:34.000Z tsa=freetsa.org
+  #8 Rekor inclusion         ok    inclusion=true checkpoint=true (rekor.sigstore.dev, tree 2700728023, leaf 2700728018); entry body names this hash, signature and key: true
+  #9 BlobRef                 ok    output: data/S5QYXSvQBRSbUbXSnAGbMm.eval matches blob:sha256:93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d (15487293 bytes)
+  #12 type                   ok    ok content/analysis/v1
+  #13 node id                ok    nodeId equals the bundle's packageHash
+  #14 signer identity        ok    ok https://github.com/npstorey (bindingTier pseudonymous)
+  #15 captureMethod          note  producerProfile_bundle_unresolved: 'script-run' under 'scripted-recomputation/eval-run'; verify-core bundles no vocabulary for this profile
+  registry                   ok    the bundle's registry equals package/trust-registry.json and lists package/public-key.txt
+
+recomputation  package/recomputation.commitment.json
+  #1 envelope integrity      ok    verified; recomputed abb93f781ae71480bf8075474facbb272f3dcc38d50eeecda79be33427924a9c
+  #2 signature               ok    valid (Ed25519ph, kid eval-run-example:ed25519-2026-09)
+  #5 key status              ok    active in the registry carried in the bundle
+  #7 RFC 3161 timestamp      ok    verified=true genTime=2026-09-13T22:07:34.000Z tsa=freetsa.org
+  #8 Rekor inclusion         ok    inclusion=true checkpoint=true (rekor.sigstore.dev, tree 2700728037, leaf 2700728033); entry body names this hash, signature and key: true
+  #9 BlobRef                 n/a   no BlobRef fields
+  #12 type                   ok    ok content/analysis/v1
+  #13 node id                ok    nodeId equals the bundle's packageHash
+  #14 signer identity        ok    ok https://github.com/npstorey (bindingTier pseudonymous)
+  #15 captureMethod          note  producerProfile_bundle_unresolved: 'script-run' under 'scripted-recomputation/eval-run'; verify-core bundles no vocabulary for this profile
+  registry                   ok    the bundle's registry equals package/trust-registry.json and lists package/public-key.txt
+
+lineage
+  wasDerivedFrom             ok    recomputation -> urn:eval-run-example:node:3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48; retrieval's recomputed envelope hash 3637b5952f6a44e050fa0ac84d2ab58454ab7d29507dbbaf09147da7f8b37d48
+
+network fetch calls: 0; BlobRef reads from data/: 1
+result: all checks passed
