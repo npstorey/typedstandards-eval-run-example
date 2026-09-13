@@ -26,3 +26,16 @@ refused never left the machine and is marked so.
 | 15:53:28 | api.github.com | README of `epoch-research/epochai-python`; metadata (description, file names) of the five gists linked from `epoch.ai/benchmarks` | whether the hub documents a scripted route to its logs | 200; the client reads a user's own copy of an Airtable base with the user's API key; the gists are benchmark implementations; no gist file content read |
 | 16:31:35 | epoch-benchmarks-production-public.s3.us-east-2.amazonaws.com | `corpus/probe.py` (committed in `d5fc615`): HEAD and GET `Range: bytes=0-0` on the run's log | the committed probe | **403**, then **403** `AccessDenied` (`corpus/probe/p0-probe.json`) |
 | 16:31:36 | logs.epoch.ai | `corpus/probe.py`: HEAD and GET `Range: bytes=0-0` on the run's log | the committed probe | **405** `captcha`, then **405** "Human Verification" (`corpus/probe/p0-probe.json`) |
+
+## P1, 2026-09-13
+
+| Time | Host | Request | Why | Result |
+|---|---|---|---|---|
+| 21:44:15 (finish) | logs.epoch.ai | the owner's browser: `/inspect_ai_logs/S5QYXSvQBRSbUbXSnAGbMm.eval`, after the host's human-verification step | the run's log (owner's ruling A) | downloaded, 15,487,293 B. The finish time is the owner's statement; macOS's quarantine timestamp on the file is 21:43:30 |
+| 21:47:46 | epoch.ai | `corpus/fetch.py`: GET `/data/benchmark_data.zip` | pin the source of the published score | 200, 2,283,227 B, Content-Length matches |
+
+## P2, 2026-09-13
+
+| Time | Host | Request | Why | Result |
+|---|---|---|---|---|
+| 21:50:51 | api.github.com | `UKGovernmentBEIS/inspect_ai`: tag ref `0.3.57`; contents of `src/inspect_ai/scorer/_metric.py`, `_metrics/accuracy.py` and `_choice.py` at that tag | the value mapping the log's scorer and metric use, for the preregistration | 200; tag at commit `e2add88f`; files read |
