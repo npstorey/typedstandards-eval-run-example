@@ -1,0 +1,56 @@
+{
+  "run_id": "S5QYXSvQBRSbUbXSnAGbMm",
+  "checked_at": "2026-09-13T21:47:46Z",
+  "log_file": "S5QYXSvQBRSbUbXSnAGbMm.eval",
+  "size_gate": {
+    "rule": "bytes <= 50000000, from the file system, before the file is opened",
+    "bytes": 15487293,
+    "pass": true,
+    "bytes_hashed": 15487293
+  },
+  "sha256": "93a9f3ca91499c42c533a882a04292efedf6218d74749bc0fa28350cfff1270d",
+  "log_header": {
+    "member": "header.json",
+    "archive_members": 3173,
+    "sample_members": 3168,
+    "log_format_version": 2,
+    "status": "success",
+    "eval.eval_id": null,
+    "eval.run_id": "S5QYXSvQBRSbUbXSnAGbMm",
+    "eval.task_id": "KxNE6xjTESRmkqZcvy9ba7",
+    "eval.task": "GPQA Diamond",
+    "eval.created": "2025-01-20T17:01:32+00:00",
+    "eval.model": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
+    "eval.dataset.name": "Idavidrein/gpqa",
+    "eval.dataset.samples": 198,
+    "eval.config.epochs": 16
+  },
+  "checks": {
+    "run_id": {
+      "rule": "the CSV `id` equals at least one of eval.eval_id, eval.run_id, eval.task_id",
+      "csv": "S5QYXSvQBRSbUbXSnAGbMm",
+      "matching_fields": [
+        "eval.run_id"
+      ],
+      "pass": true
+    },
+    "task": {
+      "rule": "eval.task contains 'gpqa' (case-folded) and eval.dataset.samples == 198",
+      "csv_table": "gpqa_diamond.csv",
+      "log_task": "GPQA Diamond",
+      "log_dataset_samples": 198,
+      "pass": true
+    },
+    "model": {
+      "rule": "the CSV `Model version`, lower-cased with non-alphanumerics removed, is a substring of eval.model normalised the same way",
+      "csv": "Llama-3.1-405B-Instruct",
+      "log": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "pass": true
+    }
+  },
+  "csv_row_lines": [
+    440,
+    442
+  ],
+  "pass": true
+}
