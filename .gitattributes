@@ -1,0 +1,5 @@
+# The RFC 3161 request and token files are ASN.1 DER. Marking them binary keeps
+# `git diff` and `git log -p` from emitting raw bytes as text, which a text scanner
+# reading the diff can choke on.
+package/proofs/*.tsq binary
+package/proofs/*.tsr binary
